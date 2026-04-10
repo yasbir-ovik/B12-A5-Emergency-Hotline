@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <div class="header-left">
+                <div class="logo">
+                    <img src="./assets/logo.png" alt="Logo">
+                </div>
+                <div class="header-text">
+                    <h1>Emergency <br> Services</h1>
+                </div>
+            </div>
+            <div class="header-right">
+                <button class="heaart-btn">
+                    <div class="heart">
+                        <p class="heart-count">0</p><img src="./assets/heart.png" alt="" id="heart">
+                    </div>
+                </button>
+                <button class="coin-btn">
+                    <div class="coin">
+                        <p class="coin-count">100</p><img src="./assets/coin.png" alt="" id="coin">
+                    </div>
+                </button>
+                <button class="copy-btn">
+                    <p class="copy-count">0 copy</p>
+                </button>
+            </div>
+        </div>
+
+        <!-- Banner Section -->
+        <div class="banner">
+            <div class="banner-logo"><img src="./assets/logo-dark.png" alt="Banner Image"></div>
+            <div class="banner-text">
+                <h1>Emergency Service Directory</h1>
+                <p>Government Emergency Services at Your Fingertip – A Project by Government of the People’s Republic of
+                    Bangladesh</p>
+            </div>
+        </div>
+
+        <!-- Main Section -->
+        <div class="main-container">
+
+            <div class="service-area">
+                <div>
+                    <div class="services">
+
+                        <div class="card">
+                            <div class="img-icon">
+                                <img src="./assets/emergency.png" class="card-img">
+                                <button class="hotline"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+
+                            <div class="card-content">
+                                <h1>National Emergency Numbers</h1>
+                                <p>National Emergency</p>
+                                <h1>999</h1>
+                                <p class="all-btn">All</p>
+
+                                <div class="copy-call">
+                                    <button class="copy" call="999"><ion-icon name="copy-outline"></ion-icon>
+                                        Copy</button>
+                                    <button class="call" id="call"><ion-icon name="call-outline"></ion-icon>
+                                        Call</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Card 2 -->
+                        <div class="card">
+                            <div class="img-icon">
+                                <img src="./assets/police.png" class="card-img">
+                                <button class="hotline"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+
+                            <div class="card-content">
+                                <h1>Police Help Line Number</h1>
+                                <p>Police</p>
+                                <h1>999</h1>
+                                <p class="all-btn">All</p>
+
+                                <div class="copy-call">
+                                    <button class="copy"><ion-icon name="copy-outline"></ion-icon> Copy</button>
+                                    <button class="call"><ion-icon name="call-outline"></ion-icon> Call</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Card 3 -->
+                        <div class="card">
+                            <div class="img-icon">
+                                <img src="./assets/fire-service.png" class="card-img">
+                                <button class="hotline"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+
+                            <div class="card-content">
+                                <h1>Fire Service Number</h1>
+                                <p>Fire Service</p>
+                                <h1>999</h1>
+                                <p class="all-btn">Fire</p>
+
+                                <div class="copy-call">
+                                    <button class="copy"><ion-icon name="copy-outline"></ion-icon> Copy</button>
+                                    <button class="call"><ion-icon name="call-outline"></ion-icon> Call</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Card 4 -->
+                        <div class="card">
+                            <div class="img-icon">
+                                <img src="./assets/ambulance.png" class="card-img">
+                                <button class="hotline"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+
+                            <div class="card-content">
+                                <h1>Ambulance Service</h1>
+                                <p>Ambulance</p>
+                                <h1>1994-999999</h1>
+                                <p class="all-btn">Health</p>
+
+                                <div class="copy-call">
+                                    <button class="copy"><ion-icon name="copy-outline"></ion-icon> Copy</button>
+                                    <button class="call"><ion-icon name="call-outline"></ion-icon> Call</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Card 5 -->
+                        <div class="card">
+                            <div class="img-icon">
+                                <img src="./assets/emergency.png" class="card-img">
+                                <button class="hotline"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+
+                            <div class="card-content">
+                                <h1>Women & Child Helpline</h1>
+                                <p>Women & Child</p>
+                                <h1>109</h1>
+                                <p class="all-btn">Help</p>
+
+                                <div class="copy-call">
+                                    <button class="copy"><ion-icon name="copy-outline"></ion-icon> Copy</button>
+                                    <button class="call"><ion-icon name="call-outline"></ion-icon> Call</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Card 6 -->
+                        <div class="card">
+                            <div class="img-icon">
+                                <img src="./assets/emergency.png" class="card-img">
+                                <button class="hotline"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+
+                            <div class="card-content">
+                                <h1>Anti-Corruption Helpline</h1>
+                                <p class="">Anti-Corruption</p>
+                                <h1>106</h1>
+                                <p class="all-btn">Govt.</p>
+
+                                <div class="copy-call">
+                                    <button class="copy"><ion-icon name="copy-outline"></ion-icon> Copy</button>
+                                    <button class="call"><ion-icon name="call-outline"></ion-icon> Call</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Card 7 -->
+                        <div class="card">
+                            <div class="img-icon">
+                                <img src="./assets/emergency.png" class="card-img">
+                                <button class="hotline"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+
+                            <div class="card-content">
+                                <h1>Electricity Helpline</h1>
+                                <p>Electricity Outage</p>
+                                <h1>16216</h1>
+                                <p class="all-btn">Electricity</p>
+
+                                <div class="copy-call">
+                                    <button class="copy"><ion-icon name="copy-outline"></ion-icon> Copy</button>
+                                    <button class="call"><ion-icon name="call-outline"></ion-icon> Call</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Card 8 -->
+                        <div class="card">
+                            <div class="img-icon">
+                                <img src="./assets/emergency.png" class="card-img">
+                                <button class="hotline"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+
+                            <div class="card-content">
+                                <h1>Brac Helpline</h1>
+                                <p>Brac</p>
+                                <h1>16445</h1>
+                                <p class="all-btn">NGO</p>
+
+                                <div class="copy-call">
+                                    <button class="copy"><ion-icon name="copy-outline"></ion-icon> Copy</button>
+                                    <button class="call"><ion-icon name="call-outline"></ion-icon> Call</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Card 9 -->
+                        <div class="card">
+                            <div class="img-icon">
+                                <img src="./assets/emergency.png" class="card-img">
+                                <button class="hotline"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+
+                            <div class="card-content">
+                                <h1>Bangladesh Railway Helpline</h1>
+                                <p>Bangladesh Railway</p>
+                                <h1>163</h1>
+                                <p class="all-btn">Travel</p>
+
+                                <div class="copy-call">
+                                    <button class="copy"><ion-icon name="copy-outline"></ion-icon> Copy</button>
+                                    <button class="call"><ion-icon name="call-outline"></ion-icon> Call</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="history-container">
+                    <div class="history-logo">
+                        <div class="logo-wrapper">
+                            <div class="hl-icon"><i class="fa-regular fa-clock"></i></div>
+                            <div class="hl-text">
+                                <p>Call History</p>
+                            </div>
+                        </div>
+                        <div class="history-btn"><button class="clear">Clear</button></div>
+                    </div>
+                    <!-- history details section -->
+                    <div class="history-details">
+                    </div>
+                    <!-- Script src -->
+                    <script src="./script.js"></script>
+</body>
+
+</html>
